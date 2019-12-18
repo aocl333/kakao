@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+body, html{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*mainSlider*/
+.mainSlider{
+    height:600px;
+    position:relative;
+    overflow:hidden;
+     padding-top: 70px;
+}
+.mainSlider img{
+    position: absolute;
+    left:50%;
+    margin-left:-960px;
+}
+
+.sectiona{
+    margin-top: 70px;
+}
+.sectabox{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.sectaheader{
+    width: 100%;
+    position: relative;
+    z-index:99;
+}
+.headertext{
+    font-size: 18px;
+    float: left;
+}
+.headertext>span{
+    font-weight: bold;
+}
+
+
+/*main*/
+.subNav{
+    height:0;
+    line-height:50px;
+    background:#fff;
+    position:absolute;
+    right:0;
+    margin-left:-600px;
+    bottom:5px;
+    color:#333;
+    border-bottom:1px solid #ddd;
+}
+.subNav>li{
+    float:left;
+    width:110px;
+    font-size:14px;
+    text-align:center;
+}
+.subNav li a{
+    display:block;
+    border:1px solid #ddd;
+    border-top:0;
+}
+.subNav .subNavMenu, .subNav .subNavMenu2{
+    width:200px;
+    text-align:left;
+    text-indent:20px;
+
+    
+}
+.subNavMenu, .subNavMenu2>a{
+    background:url(../img/ar_snb.png) no-repeat right center;
+}
+
+.snb{
+    background:#fff;
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.3s;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.09);
+}
+.subNavMenu:hover .snb{
+    max-height:300px;
+}
+.subNavMenu2:hover .snb{
+    max-height:300px;
+}
+.snb li:hover a{
+    background:url(../img/ar_snb.png) no-repeat right center;
+}
+
+.sectionb{
+    width: 100%;
+    margin-top: 150px;
+}
+.sectbbox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sectbline{
+    padding: 20px 0;
+}
+.sectb{
+    display: inline-block;
+    margin:0 30px;
+}
+.sectbimgbox{
+    overflow:hidden;
+    height:300px;
+}
+
+.sectbimgbox>img:hover{
+    opacity: 0.7;
+    transition: all 0.3s linear;
+    transform: scale(1.05);
+}
+.sectbtext{
+    text-align:left;
+    font-size: 14px;
+    color:#777;
+    padding-top: 10px;
+}
+.sectbtext>p:first-child{
+    font-weight: bold;
+    color:#222;
+    padding-bottom:5px;
+    font-size: 15px;
+}
+.sectbpage{
+    text-align: center;  
+    margin-top: 50px;
+    padding: 50px 0;
+}
+.sectbpage>p{
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    }
+.pageon{
+    background: #2F2F2F;
+    color: #fff;
+}
+@media screen and (max-width:768px){
+    .mainSlider img{display:none;}
+    
+    .mainSlider{
+        background:url(../img/mbt21_com_PC2.jpg)center center;
+        width:100%;
+        height:238px;
+        padding-top:0;
+    }
+    .sectiona{
+        margin-top:30px;
+    }
+    .sectabox{
+        width: 100%;
+    }
+    .headertext{
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .subNav .subNavMenu,.subNav .subNavMenu2{
+        display:none;
+    }
+    .subNavMenu:hover .snb{
+    max-height:200px;
+    }
+    .subNavMenu2:hover .snb{
+    max-height:300px;
+    }
+    .snb li:hover a{
+    background:url(../img/ar_snb.png) no-repeat right center;
+    }
+    .sectionb{
+        margin-top:70px; 
+    }
+    .sectbbox{
+        width: 100%;
+    }
+    .sectb{
+        width:50%;
+        margin:0;
+    }
+    .sectbline{
+        padding:10px;
+        font-size: 0;
+    }
+    .sectbimgbox{
+        margin:5px;
+        height:221px;
+    }
+    .sectbimgbox img{
+        width:170px;
+    }
+    .sectbtext{
+        margin:5px;
+    }
+    .sectbtext>p:first-child{
+       font-size:12px;
+    }
+    .sectbtext>p{
+        font-size:10px;
+    }
+    .sectbpage{
+        margin-top:0;
+        padding:40px;
+    }
+}

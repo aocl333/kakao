@@ -1,0 +1,138 @@
+@media screen and (max-width:768px){
+    .skillvideo{
+        width:100%;
+        vertical-align: middle;
+    }
+    .section{
+        min-width: auto;
+    }
+    .sectiona{
+        height: 350px;
+    }
+    .sectionatext{
+        width: 300px;
+        min-width: auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .sectionatext>p:first-child{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .sectionatext>p:last-child{
+        font-size: 14px;
+    }
+    .sectionaimg01{
+        width: 380px;
+        bottom:-60px;
+        left:0;
+    }
+    .sectionaimg02{
+        width:120px;
+        height:130px;
+        left:70%;
+    }
+    .sectionaimg03{
+        width:100px;
+        left:-30px;
+        top:80px;
+    }
+    .sectionb{
+        width:600px;
+        padding:15px 0;
+    }
+    .sectionb h1{
+        font-size:25px;
+        margin-right:215px;
+        padding-bottom:15px;
+    }
+    .sectionbtext{
+        display:none;
+    }
+    .list .item {
+        padding-right:0;
+        
+    }
+    .list .item img{
+        height:143px;
+        padding-left:10px;
+    }
+    .img1{
+        padding-right:4px;
+    }
+    .img10{
+    display:none;
+    }
+    .list .item img{}
+    .list .item p{
+        font-size:10px;
+        padding-left:15px
+        
+    }
+    .sectiondbox{
+        width: 100%;
+        height: 500px;
+        min-width: auto;
+    }
+    .sectiondheader{
+        padding-top:25px;
+    }
+    .sectiondheader>p:first-child{
+        font-size:25px;
+        padding-bottom:5px;
+}
+    .sectiondheader>p:last-child{
+        font-size:12px;
+        padding-bottom:5px;
+    }
+    .cardbox{
+        width:100%;
+    }
+    .thumbclick img{
+        display:none;
+    }
+    .thumbimgbox{
+        top:0;
+        margin-left:8px;
+    }
+    .thumbimgbox > li img{
+        width:70px;
+        display:inline-block;
+    }
+    .thumbimgbox>li{
+        width: 70px;
+        padding:10px;
+        cursor: pointer;
+     }
+    .name{
+        font-size: 35px;
+        top: 200px;
+        right: 40%;
+    }
+    .sectiondcard img{
+        width:190px;
+        height:138px;
+        left:70px;
+        top:140px;
+    }
+    
+    .name{
+         font-size:20px;
+        padding-right:40px;
+    }
+    .name:after{
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 2px;
+        margin-bottom:5px;
+    }
+    .name span{
+        display:none;
+
+    }
+
+}
+
+
+
